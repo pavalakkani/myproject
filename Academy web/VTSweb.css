@@ -1,0 +1,112 @@
+nav{
+    background-color: rgb(217, 255, 0);
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0 50px;
+    padding-right: 40px;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    background-color: rgba(162, 162, 255, 0.24);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    
+}
+
+a.active{
+    color: blue;
+    text-decoration: underline;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.text{
+    margin: auto;
+    display: flex-box;
+    height: 50px;   
+}
+
+.text h5{
+    color: red;
+    margin: 0;
+    padding-left: 3%;
+    padding-top: 6%;
+}
+
+.text h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; 
+    padding-left: 3%;
+    padding-top: 2%;
+    font-weight: 500;
+    
+}
+
+#lab{
+
+    float: right;
+    width: 500px;
+    height:auto;
+    padding-top: 5%;
+    padding-right: 3%;
+}
+
+#PHARA{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    width: 300px;
+    margin: auto;
+    float: left;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+#btn{
+    border-radius: 25px;
+    border-color: yellow;
+    height: 35px;
+    width: 100px;
+    background-color: yellow;
+    padding-left: 0;
+}
+
+h2{
+    margin: 0;
+    padding-right: 40%;
+    padding-bottom: 20px;
+}
+
+.program{
+    margin: 0;
+       
+}
+
+.container{
+    margin: 0;
+    padding-left: 0px;
+    display: inline-flex;
+    width: 1349px;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.first,.second,.third,.fourth{
+    padding: 45px;
+    padding-right: 99px;
+    padding-top: 60px;  
+}
+
+.text1,.text2,.text3,.text4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
